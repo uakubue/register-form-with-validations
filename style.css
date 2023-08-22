@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.form{
+    background-color: rgb(88, 140, 51);
+    padding: 4rem;
+}
+
