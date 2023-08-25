@@ -12,7 +12,15 @@
             padding: 4rem;
         }
         input{
-            margin-bottom: 1rem;
+            border-style: none;
+            width: 20rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            padding: 8px;
+        }
+
+        input:invalid {
+            border: 1px solid red;
         }
 
         .form > h2 {
@@ -54,6 +62,13 @@
                     <label for="date">Date of birth</label><br>
                     <input type="date" id="date" name="date">
                     <br><br>
+
+                    <label for="">Gender</label>
+                    <fieldset id="set">
+                       <input type="radio" name="set" value="male">Male
+                       <input type="radio" name="set" value="female" checked>Female
+                    </fieldset>
+
                     <label for="password">Password</label><br>
                     <input type="password" id="password" name="password" required>
                     <br>
